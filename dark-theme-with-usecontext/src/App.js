@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ContextComponent from "./components/ContextComponent";
+import './styles/App.css'
 
 export const ThemeContext = React.createContext();
 
@@ -12,12 +13,12 @@ const App = () => {
   }
 
   return (
-    <>
+    <div className="App">
       <ThemeContext.Provider value={darkTheme}>
-        <button onClick={toggleTheme}>Toggle Theme</button>
         <ContextComponent />
+        <button id='button' onClick={toggleTheme}>Toggle Theme</button>
       </ThemeContext.Provider>
-    </>
+    </div>
   );
 }
 
