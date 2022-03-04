@@ -1,6 +1,8 @@
 # Dark Theme with useContext
 
-## Available Scripts
+## Description
+
+A simple dark theme using ReactJS and useContext.
 
 In the project directory, you can run:
 
