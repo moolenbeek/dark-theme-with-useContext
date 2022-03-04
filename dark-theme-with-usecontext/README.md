@@ -9,4 +9,4 @@ In the project directory, you can run:
 ## Project Screenshots
 
 ![light theme](https://github.com/moolenbeek/dark-theme-with-useContext/blob/master/dark-theme-with-usecontext/public/images/light.png)
-![dark theme](https://github.com/moolenbeek/dark-theme-with-useContext/blob/master/dark-theme-with-usecontext/public/images/light.png)
+![dark theme](https://github.com/moolenbeek/dark-theme-with-useContext/blob/master/dark-theme-with-usecontext/public/images/dark.png)
