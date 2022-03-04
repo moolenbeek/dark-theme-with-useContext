@@ -10,6 +10,6 @@ In the project directory, you can run:
 
 ## Project Screenshots
 
-<img src="https://github.com/moolenbeek/dark-theme-with-useContext/blob/master/dark-theme-with-usecontext/public/images/light.png" width="100" height="100">
+<img src="https://github.com/moolenbeek/dark-theme-with-useContext/blob/master/dark-theme-with-usecontext/public/images/light.png" width="500">
 
-<img src="https://github.com/moolenbeek/dark-theme-with-useContext/blob/master/dark-theme-with-usecontext/public/images/dark.png" width="100" height="100">
+<img src="https://github.com/moolenbeek/dark-theme-with-useContext/blob/master/dark-theme-with-usecontext/public/images/dark.png" width="500">
