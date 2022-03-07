@@ -1,25 +1,16 @@
-import React, { useState } from "react";
-import ContextComponent from "./components/ContextComponent";
+import React from "react"
+import ContextComponent from "./components/ContextComponent"
 import './styles/App.css'
+import { ThemeProvider } from "./ThemeContext"
 
-export const ThemeContext = React.createContext();
+export const ThemeContext = React.createContext()
 
-const App = () => {
-
-  const [darkTheme, setDarkTheme] = useState(true);
-
-  const toggleTheme = () => {
-    setDarkTheme(prevDarkTheme => !prevDarkTheme)
-  }
-
+export default function App() {
   return (
     <div className="App">
-      <ThemeContext.Provider value={darkTheme}>
+      <ThemeProvider>
         <ContextComponent />
-        <button id='button' onClick={toggleTheme}>Toggle Theme</button>
-      </ThemeContext.Provider>
+      </ThemeProvider>
     </div>
   );
 }
-
-export default App;
